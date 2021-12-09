@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.clear{
+    clear: both;
+}
+/**********************************ATE AQUI PADRAO*********************************/
+
+header{
+    padding: 20px 2%;
+    background-color: black;
+}
+
+.logo{ 
+    width: 430px;
+    height: 80px;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    background-image: url('img/logo2.jpg');
+}
+
+/*****************ATE AQUI HEADER******/
+
+.bg, .bg1, .bg2, .bg3, .bg4, .bgfim{
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.text{
+    position: absolute;
+    width: 100%;
+    top: 60%;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+span{
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 23px;
+}
+
+span, h2, p{
+    display: block;
+    font-family: 'IM Fell English SC', serif;
+}
+
+section{
+    width: 100%;
+    padding: 30px 100px;
+}
+
+/***************ATE AQUI ELEMENTOS QUE SERVE PARA TODOS***********************************/
+
+.bg{
+    background-image: url('img/ChainsKratos.jpg');
+}
+
+section.kratos{
+    background-image: linear-gradient(#F9B911,#F6F78D,#E69C3B,#F09E14,#0D0D0D);
+}
+
+/***************************ATE AQUI BG E KRATOS*********************************/
+
+
+.bg1{
+    background-image: url('img/GOW1.jpg');
+}
+
+span.gow1{
+    color: rgb(84, 153, 199);
+}
+
+section.gow1{
+    background-image: linear-gradient(#26436F,#657A97,#F6D47A,#E5BE6F,#25426C);
+}
+
+/**************ATE AQUI BG1 GOW1*********************************************************/
+
+.bg2{
+    background-image: url('img/GOW2.jpg');
+}
+
+span.gow2{
+    color: rgb(136, 0, 0);
+}
+
+section.gow2{
+    background-image: linear-gradient(#761907,#71677F,#F5E4C8,#43485C,#6F1807);
+}
+/**********************ATE AQUI BG2 E GOW2**********************************************/
+
+.bg3{
+    background-image:url('img/GOW3.jpg');
+}
+
+span.gow3{
+    color: rgb(175, 29, 29);
+}
+
+section.gow3{
+    background-image: linear-gradient(#660500,#3C260F,#592819,#701503,#5F0200);
+}
+
+/**********************ATE AQUI BG3 E GOW3**********************************/
+
+.bg4{
+    background-image: url('img/GOW4.jpg');
+}
+
+span.gow4{
+    color: #7D99A5;
+}
+
+section.gow4{
+    background-image: linear-gradient(#2C523B,#3D90D9,#7D99A5,#526F81,#192F23);
+}
+
+/**********************ATE AQUI BG4 E GOW4**********************************/
+
+.bgfim{
+    background-image: url('img/end.jpg');
+}
